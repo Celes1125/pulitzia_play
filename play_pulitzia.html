@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vocabulario de Limpieza en Italiano</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #f4f4f9;
+            color: #333;
+            margin: 0;
+            padding: 20px;
+            line-height: 1.6;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        h1, h2 {
+            text-align: center;
+            color: #2c3e50;
+        }
+        .navigation {
+            text-align: center;
+            margin-bottom: 40px;
+            padding-bottom: 20px;
+            border-bottom: 2px solid #e0e0e0;
+        }
+        .navigation a {
+            margin: 0 15px;
+            text-decoration: none;
+            color: #3498db;
+            font-weight: bold;
+            font-size: 1.1em;
+            padding: 8px 15px;
+            border-radius: 5px;
+            transition: background-color 0.3s, color 0.3s;
+        }
+        .navigation a:hover {
+            background-color: #3498db;
+            color: #fff;
+        }
+        .section {
+            background-color: #fff;
+            padding: 30px;
+            margin-bottom: 30px;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+        }
+        .section h2 {
+            margin-top: 0;
+            border-bottom: 2px solid #3498db;
+            padding-bottom: 10px;
+            margin-bottom: 20px;
+        }
+        .vocab-list {
+            list-style: none;
+            padding: 0;
+        }
+        .vocab-list li {
+            margin-bottom: 15px;
+            padding-bottom: 15px;
+            border-bottom: 1px solid #eee;
+            font-size: 1.1em;
+        }
+        .vocab-list li:last-child {
+            border-bottom: none;
+        }
+        .vocab-term {
+            font-weight: bold;
+            color: #c0392b;
+        }
+        .vocab-example {
+            font-style: italic;
+            color: #555;
+        }
+        .cards-container {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 25px;
+            justify-content: center;
+        }
+        .card {
+            width: 320px;
+            height: 220px;
+            perspective: 1000px;
+        }
+        .card-inner {
+            position: relative;
+            width: 100%;
+            height: 100%;
+            transition: transform 0.7s;
+            transform-style: preserve-3d;
+        }
+        .card:hover .card-inner {
+            transform: rotateY(180deg);
+        }
+        .card-front, .card-back {
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            -webkit-backface-visibility: hidden;
+            backface-visibility: hidden;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border-radius: 10px;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.15);
+            padding: 20px;
+            box-sizing: border-box;
+        }
+        .card-front {
+            background-color: #fff;
+        }
+        .card-front img {
+            max-width: 90%;
+            max-height: 90%;
+            object-fit: contain;
+        }
+        .card-back {
+            background: linear-gradient(135deg, #ece9e6, #ffffff);
+            transform: rotateY(180deg);
+            text-align: center;
+            flex-direction: column;
+        }
+        .card-back h3 {
+            margin: 0 0 10px 0;
+            font-size: 1.6em;
+            color: #2c3e50;
+        }
+        .card-back p {
+            margin: 5px 0;
+            font-size: 1em;
+        }
+        .card-back .lang-es {
+            font-style: italic;
+            color: #555;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Vocabulario de Limpieza en Italiano</h1>
+        <div class="navigation">
+            <a href="#guide">Guía de Utensilios</a>
+            <a href="#verbs">Guía de Verbos</a>
+            <a href="#game">Juego de Tarjetas</a>
+        </div>
+
+        <div id="guide" class="section">
+            <h2>Guía de Utensilios y Productos</h2>
+            <ul class="vocab-list">
+                <li><span class="vocab-term">La scopa:</span> La escoba. <span class="vocab-example">"Passa la scopa sul pavimento." (Pasa la escoba por el suelo).</span></li>
+                <li><span class="vocab-term">La paletta:</span> El recogedor. <span class="vocab-example">"Raccogli la polvere con la paletta." (Recoge el polvo con el recogedor).</span></li>
+                <li><span class="vocab-term">Il secchio:</span> El cubo. <span class="vocab-example">"Riempi il secchio d'acqua." (Llena el cubo de agua).</span></li>
+                <li><span class="vocab-term">Il mocio / La mopa:</span> La fregona. <span class="vocab-example">"Usa il mocio per lavare a terra." (Usa la fregona para fregar el suelo).</span></li>
+                <li><span class="vocab-term">Il panno / Lo straccio:</span> El paño / El trapo. <span class="vocab-example">"Pulisci il tavolo con uno straccio umido." (Limpia la mesa con un trapo húmedo).</span></li>
+                <li><span class="vocab-term">Lo spruzzatore:</span> El pulverizador. <span class="vocab-example">"Riempi lo spruzzatore con il detergente." (Llena el pulverizador con el detergente).</span></li>
+                <li><span class="vocab-term">L'aspirapolvere:</span> La aspiradora. <span class="vocab-example">"Passa l'aspirapolvere sul tappeto." (Pasa la aspiradora por la alfombra).</span></li>
+                <li><span class="vocab-term">I guanti:</span> Los guantes. <span class="vocab-example">"Mettiti sempre i guanti per pulire." (Ponte siempre los guantes para limpiar).</span></li>
+                <li><span class="vocab-term">La spugna:</span> La esponja. <span class="vocab-example">"Usa la spugna per i piatti." (Usa la esponja para los platos).</span></li>
+                <li><span class="vocab-term">Il detersivo:</span> El detergente. <span class="vocab-example">"Manca il detersivo per i pavimenti." (Falta el detergente para suelos).</span></li>
+                <li><span class="vocab-term">Il sapone:</span> El jabón. <span class="vocab-example">"Controlla se c'è il sapone nei bagni." (Controla si hay jabón en los baños).</span></li>
+                <li><span class="vocab-term">La candeggina:</span> La lejía. <span class="vocab-example">"Usa la candeggina per disinfettare il WC." (Usa la lejía para desinfectar el WC).</span></li>
+                <li><span class="vocab-term">Lo sgrassatore:</span> El desengrasante. <span class="vocab-example">"Questo sgrassatore è molto potente." (Este desengrasante es muy potente).</span></li>
+                <li><span class="vocab-term">La carta igienica:</span> El papel higiénico. <span class="vocab-example">"Bisogna mettere un rotolo nuovo di carta igienica." (Hay que poner un rollo nuevo de papel higiénico).</span></li>
+                <li><span class="vocab-term">La scorta:</span> La reserva / El repuesto. <span class="vocab-example">"Lascia sempre una scorta di due rotoli." (Deja siempre una reserva de dos rollos).</span></li>
+                <li><span class="vocab-term">I rifiuti / La spazzatura:</span> La basura. <span class="vocab-example">"Porta fuori i sacchi della spazzatura." (Saca las bolsas de la basura).</span></li>
+            </ul>
+        </div>
+
+        <div id="verbs" class="section">
+            <h2>Guía de Verbos Comunes</h2>
+            <ul class="vocab-list">
+                <li><span class="vocab-term">Pulire:</span> Limpiar. <span class="vocab-example">"Oggi dobbiamo pulire gli uffici." (Hoy tenemos que limpiar las oficinas).</span></li>
+                <li><span class="vocab-term">Mancare:</span> Faltar. <span class="vocab-example">"Manca un prodotto per i vetri." (Falta un producto para los cristales).</span></li>
+                <li><span class="vocab-term">Restare / Rimanere:</span> Quedar / Permanecer. <span class="vocab-example">"È rimasta una macchia sul pavimento." (Ha quedado una mancha en el suelo).</span></li>
+                <li><span class="vocab-term">Attaccare:</span> Pegar(se). <span class="vocab-example">"Lo sporco si attacca alle piastrelle." (La suciedad se pega a los azulejos).</span></li>
+                <li><span class="vocab-term">Spruzzare:</span> Rociar / Pulverizar. <span class="vocab-example">"Spruzza il prodotto e poi passa il panno." (Rocía el producto y luego pasa el paño).</span></li>
+                <li><span class="vocab-term">Riempire:</span> Llenar. <span class="vocab-example">"Devo riempire il secchio con acqua pulita." (Tengo que llenar el cubo con agua limpia).</span></li>
+                <li><span class="vocab-term">Svuotare:</span> Vaciar. <span class="vocab-example">"Ricordati di svuotare tutti i cestini." (Recuerda vaciar todas las papeleras).</span></li>
+                <li><span class="vocab-term">Portare:</span> Llevar. <span class="vocab-example">"Porta questo carrello al primo piano." (Lleva este carro al primer piso).</span></li>
+                <li><span class="vocab-term">Prendere:</span> Coger / Tomar. <span class="vocab-example">"Prendi un sacco pulito dal magazzino." (Coge una bolsa limpia del almacén).</span></li>
+                <li><span class="vocab-term">Lavare:</span> Lavar. <span class="vocab-example">"Lava bene il pavimento." (Lava bien el suelo).</span></li>
+                <li><span class="vocab-term">Asciugare:</span> Secar. <span class="vocab-example">"Asciuga lo specchio con un panno asciutto." (Seca el espejo con un paño seco).</span></li>
+                <li><span class="vocab-term">Disinfettare / Igienizzare:</span> Desinfectar / Higienizar. <span class="vocab-example">"È importante disinfettare i bagni ogni giorno." (Es importante desinfectar los baños cada día).</span></li>
+                <li><span class="vocab-term">Buttare / Gettare:</span> Tirar. <span class="vocab-example">"Butta via questi panni vecchi." (Tira estos paños viejos).</span></li>
+            </ul>
+        </div>
+
+        <div id="game" class="section">
+            <h2>Juego de Tarjetas</h2>
+            <p style="text-align: center;">Pasa el ratón sobre las imágenes para revelar el vocabulario y los ejemplos.</p>
+            <div class="cards-container">
+                <div class="card">
+                    <div class="card-inner">
+                        <div class="card-front"><img src="https://m.media-amazon.com/images/I/61G7k6AKm9L.jpg" alt="Escoba"></div>
+                        <div class="card-back"><h3>La scopa</h3><p>Devo usare la <strong>scopa</strong>.</p><p class="lang-es">(Tengo que usar la <strong>escoba</strong>).</p></div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-inner">
+                        <div class="card-front"><img src="https://sansei.com.py/uploads/products/14227_tims2-palita-de-basura-r-980-erca-azul.jpg" alt="Recogedor"></div>
+                        <div class="card-back"><h3>La paletta</h3><p>Usa la <strong>paletta</strong> per la polvere.</p><p class="lang-es">(Usa el <strong>recogedor</strong> para el polvo).</p></div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-inner">
+                        <div class="card-front"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRWNC0u7RV-F0hr2DD7SeLO0kAh9Q_yOTu5TurQsNGG5E6kmCldt1uvY242-kNlecreRDg&usqp=CAU" alt="Cubo"></div>
+                        <div class="card-back"><h3>Il secchio</h3><p>Riempi il <strong>secchio</strong>.</p><p class="lang-es">(Llena el <strong>cubo</strong>).</p></div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-inner">
+                        <div class="card-front"><img src="https://tomaino.it/wp-content/uploads/2021/02/71YzKS8yO0L._AC_SL1500_.jpg?w=640" alt="Fregona"></div>
+                        <div class="card-back"><h3>Il mocio</h3><p>Passa il <strong>mocio</strong>.</p><p class="lang-es">(Pasa la <strong>fregona</strong>).</p></div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-inner">
+                        <div class="card-front"><img src="https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcQ7xwRQd80in9ucozOL4k8ZnHHRv2QR0zyLdu3KlX6SHXN2nwp5jsRCN13MBvZSRAMApWwb2-nX-Vnnc1L5MSqBcFl5IjWyaqCuckO3aI58HifuMFcqayiHEPFxeDuf3683TDB0NA&usqp=CAc" alt="Paño"></div>
+                        <div class="card-back"><h3>Il panno</h3><p>Prendi un <strong>panno</strong> pulito.</p><p class="lang-es">(Coge un <strong>paño</strong> limpio).</p></div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-inner">
+                        <div class="card-front"><img src="https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcTBERJ9c2RQ_QOqoDlzRjAbrTIXHLpoZfY9kqf1m5_mUDY9U8qC4TAlPNQUNm7iRBJS2MV__3YGfHwN0UoFfeFxeMQjhFkQyb1i5UqjmrhlELAqSrwCuKmhjbtG9SV8MRBR7-vmWRAV6w&usqp=CAc" alt="Pulverizador"></div>
+                        <div class="card-back"><h3>Lo spruzzatore</h3><p>Dov'è lo <strong>spruzzatore</strong>?</p><p class="lang-es">(¿Dónde está el <strong>pulverizador</strong>?).</p></div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-inner">
+                        <div class="card-front"><img src="https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcTgaqCZPupo1CJRWpSOxaaaosuwbg7tztBpzjIh0GByEKkU1kYY7pVgRWalO0PXqW64WbKDHg2u6rAQ6fduQouizgSiI4OzBzCEUhkrM0HmpM_Wpc0Oe20GnDeDJxm9s1XRkpDx-lua_Q&usqp=CAc" alt="Aspiradora"></div>
+                        <div class="card-back"><h3>L'aspirapolvere</h3><p>Usa l'<strong>aspirapolvere</strong>.</p><p class="lang-es">(Usa la <strong>aspiradora</strong>).</p></div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-inner">
+                        <div class="card-front"><img src="https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcTsTblh6-cRPmN8o3q1oUdCGWHRiBN3MjMHpuZZ5SRoa7yj1amrAmNUstCH0h8EvXFh6TZLRn4MY11-TmQDDVdSYjMdkb9vHMR-2-etYg2MgWDUztzhmbwPFgNhcspvRq90_cOjIwo&usqp=CAc" alt="Guantes"></div>
+                        <div class="card-back"><h3>I guanti</h3><p>Mettiti i <strong>guanti</strong>.</p><p class="lang-es">(Ponte los <strong>guantes</strong>).</p></div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-inner">
+                        <div class="card-front"><img src="https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcS3e30x6mcKzRC2C56vgmDWtirIMB6FlYJg9bHE2X3HjHByclQLppncSvY9NUcFUoPKEmRFKf9Dg7idBpm6zZ34gfEARNxNi2geS66lcRhIvb2EP9SKb8FwEcdVUPUGxA&usqp=CAc" alt="Esponja"></div>
+                        <div class="card-back"><h3>La spugna</h3><p>Usa una <strong>spugna</strong> nuova.</p><p class="lang-es">(Usa una <strong>esponja</strong> nueva).</p></div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-inner">
+                        <div class="card-front"><img src="https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcSSqotPXV33vd5inaTtgyuReCavMQAxCPdHBGrrfoYskE8QT_2ZA6I5WHI0--jEXrZXaO9hE3U0L4o7_mUVJmaetxTdQmBRcVIS4eiL_6OWj5aGD35hI_nB1zM1IB6StwrJd8BqVkQ&usqp=CAc" alt="Papel higiénico"></div>
+                        <div class="card-back"><h3>La carta igienica</h3><p>Manca la <strong>carta igienica</strong>.</p><p class="lang-es">(Falta el <strong>papel higiénico</strong>).</p></div>
+                    </div>
+                </div>
+                 <div class="card">
+                    <div class="card-inner">
+                        <div class="card-front"><img src="https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcTktzmg7cqOiHLCmCC2xY0U6j8FABLNg5rQ2elAevL2oarLK8kEZRkhz7zzU7ETmgekTmf7xsWL_vwBCco-soNs5cq3N_Juw4geJAjB08EVrYtOoN6NhkrSDNfIu76Vw997wsZT1iA&usqp=CAc" alt="Bolsas"></div>
+                        <div class="card-back"><h3>I sacchetti</h3><p>Non ci sono più <strong>sacchetti</strong>.</p><p class="lang-es">(No hay más <strong>bolsas</strong>).</p></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
